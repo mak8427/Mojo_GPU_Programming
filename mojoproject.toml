@@ -1,0 +1,11 @@
+[project]
+authors = ["Davide <davide.mattioli.2001@gmail.com>"]
+channels = ["https://conda.modular.com/max-nightly", "https://conda.modular.com/max", "https://repo.prefix.dev/modular-community", "conda-forge"]
+name = "agents_gpu"
+platforms = ["linux-64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+max = "*"
